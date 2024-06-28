@@ -49,6 +49,9 @@ if(WITH_CORELIB)
     include(AosCoreLib)
 endif()
 
+# Aos core API
+include(AosCoreAPI)
+
 # gRPC lib
 find_package(gRPC REQUIRED)
 
