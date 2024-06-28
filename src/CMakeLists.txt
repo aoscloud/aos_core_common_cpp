@@ -19,6 +19,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 # Modules
 # ######################################################################################################################
 
+add_subdirectory(iam)
 add_subdirectory(logger)
 add_subdirectory(migration)
 add_subdirectory(utils)
